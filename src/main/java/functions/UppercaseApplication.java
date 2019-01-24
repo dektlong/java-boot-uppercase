@@ -11,6 +11,7 @@ public class UppercaseApplication {
 
 	@Bean
 	public Function<String, String> uppercase() {
+		System.out.println(s.toUpperCase());
 		return s -> s.toUpperCase();
 	}
 
